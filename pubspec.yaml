@@ -1,0 +1,20 @@
+name: han_viet_duo
+description: Ung dung hoc chu Han theo am Han-Viet, lay cam hung tu vong lap hoc tap cua Duolingo.
+publish_to: 'none'
+version: 1.1.0+2
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
